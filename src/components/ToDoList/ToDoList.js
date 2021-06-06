@@ -5,7 +5,9 @@ import './ToDoList.css';
 
 function ToDoList(){
     return (
-        <TaskItem />
+        <div className="todo-list-container">
+            <TaskItem />
+        </div>
     );
 }
 

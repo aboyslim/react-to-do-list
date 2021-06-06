@@ -1,0 +1,11 @@
+.todolist-task {
+    border-bottom: 2px dashed #ccc;
+}
+
+.todolist-task .todolist-task__heading{
+    margin: 0;
+}
+
+.todolist-task .todolist-task__description{
+    padding: 5px 0;
+}
