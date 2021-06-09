@@ -39,7 +39,7 @@ function AddTaskForm(props){
             description: taskDescriptionInput
         };
 
-        props.onSaveTaskItems(taskItems);
+        props.onSaveTaskItems(taskItems); // Two way binding: calling a function from parent component (App.js) and passing data as parameter
 
         setTaskName('Enter name of task...');
         setTaskDescription('Enter a description...');
